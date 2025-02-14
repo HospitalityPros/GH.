@@ -11,12 +11,12 @@
 </html>
 <body>
  <span><video src="socials.mp4" loop="loop" autoplay="autoplay" width="100%"  muted="muted" autostart="true" poster="OAEZ4236 copy.jpg" type="video/mp4"/></span>
-        <table border="0" cellspacing="0" cellpadding="0" bgcolor="8BOA1A" width="100%" height="150px">
+        <table border="0" cellspacing="0" cellpadding="0" bgcolor="#964B00" width="100%" height="150px">
             <tr>
-                <td><a href="./index" target="_self">Home</a></td>
-                <td><a href="./services" target="_self">Services</a></td>
-                <td><a href="./contact" target="_self">Contact</a></td>
-                <td><a href="./others" target="_self">Others</a></td>
+                <td><a href="./index.html" target="_self"><button class="header">Home</button></a></td>
+                <td><a href="./services.html" target="_self"><button class="header">Services</button></a></td>
+                <td><a href="./contact.html" target="_self"><button class="header">Contact</button></a></td>
+                <td><a href="./others.html" target="_self"><button class="header">Others</button></a></td>
                 <!--<td><a href="./contact" target="_self">Contact</a></td>
                 <td><a href="./location" target="_self">Location</a></td>-->
             </tr>
@@ -33,7 +33,7 @@
 </body>
 
 <style>
-      table{
+    table{
         margin: 0px;
         padding: 0px;
     }
@@ -41,72 +41,90 @@
     body{
         margin: 0px;
         padding: 0px;
-        color: #660000;
         font-family: Georgia;
        text-align: center;
+
     }
- 
+
+    p.logo{
+        align-content: center;
+    }
+    
     td{
         font-family: helvetica, Georgia, Tahoma, Times New Roman;
         font-size: 20px;
         text-align: center;
-  
+        color:#F5F5DC;
     }
     
     a{
         text-decoration: none;
-        color: black;
+        color: #F5F5DC;
     }
     
     a:link{
-        color: black;
+        color: #F5F5DC;
     }
     
-    a:visited{
-        color: black;
-    }
+
     
     td:hover{
-        background: white;
-        color: #660000;
-         font-weight: bold;
+        background: #F5F5DC;
+        color: #964B00;
     }
-    
     footer{
-        background: #660000;
-        color: white;
+        background: #964B00;
+        color: #F5F5DC;
         height: 150px;
         text-align: center;
     }
     
-   p{
+   .description{
        font-family: Georgia;
        font-size: 30px;
        text-align: center;
    }
    
-    div{
-        display: inline-block;
-    }
+   img{
+       display: inline;
+    
+   }
    
-   button{
-       font-size: 30px;
+   .end{
+        border: none;
+        border-radius: 0px;
+   }
+   
+   button.header{
+       font-size: 20px;
        border-radius: 20px;
-       background: #660000;
-       color: white;
+       background: #964B00;
+       color: #F5F5DC;
        padding: 15px;
-       width: 300px;
+       width: 99px;
+       height: 90%;
        border: none;
-       height: 110px;
+       font-weight: bold;
    }
    
    button:hover{
        font-weight: bold;
-       color: #660000;
-       background: white;
-      font-size: 30px;
+       color: #964B00;
+       background: #F5F5DC;
    }
-
+   
+   button{
+       font-size: 30px;
+       border-radius: 20px;
+       background: #964B00;
+       color: #F5F5DC;
+       padding: 15px;
+       width: 300px;
+        height: 110px;
+       border: none;
+       font-weight: bold;
+   }
+   
     a.BISECH{
         color: white;
     }
