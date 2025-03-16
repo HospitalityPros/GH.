@@ -9,8 +9,6 @@ a:hover { color:#B2B3B4; }
 #menu_1364a63e_entry:hover { background-color: #323232; color: #FFFFFF !important; }
 #menu_1364a63e_entry:hover span { color:#FFFFFF !important; }
 		.menu_1364a63e_mainMenuEntry { text-align: center; }
-		.menu_1364a63e_mainMenuEntry:hover {	background-color:#282828; }
-		.menu_1364a63e_mainMenuEntry:hover span {	color:#FFFFFF !important; }
 		#menu_1364a63e .mobileEntry { display: none; } 
 		#menu_1364a63e .normalEntry { display: block; } 
 		@media only screen and (max-width:900px) { 
@@ -29,18 +27,22 @@ body { background-color:#F3F3F5; padding:0;  margin: 0; }
 .textstyle3 { font-size:18pt; font-family:Segoe, 'Segoe UI', 'Helvetica Neue', sans-serif; color:#FFFFFF; font-weight:bold;  }
 #container_638ba834 { vertical-align: top; position:relative; display: inline-block; width:54%; min-height:40px; background:none;  }
 .textstyle4 { text-align:right; }
-#menu_1364a63e { vertical-align: bottom; border-radius: 6px; position:relative; display: inline-block; width:300px; height:38px; text-align:left; background:none;  }
+#menu_1364a63e { vertical-align: bottom; border-radius: 6px; position:relative; display: inline-block; width:300px; height:39px; text-align:left; background:none;  }
 .menuholder1 { position: relative; overflow: hidden; width: 100%; height: 100%; }
-.menustyle1 { position:absolute; width:36px; height:38px; left:10px;  }
-.menuentry_text1 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:32px;  }
-.textstyle5 { font-size:22pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  white-space: nowrap; }
-.menustyle2 { position:absolute; width:73px; height:38px; left:10px;  }
+.menustyle1 { position:absolute; width:30px; height:39px; left:10px;  }
+.menuentry_text1 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:0px;  }
+.menustyle2 { position:absolute; width:73px; height:39px; left:10px;  }
 .menuentry_text2 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:18px;  }
-.textstyle6 { font-size:12pt; font-family:Segoe, 'Segoe UI', 'Helvetica Neue', sans-serif; color:#FFFFFF;  white-space: nowrap; }
-.menustyle3 { position:absolute; width:77px; height:38px; left:83px;  }
-.menustyle4 { position:absolute; width:73px; height:38px; left:160px;  }
-.menustyle5 { position:absolute; width:65px; height:38px; left:233px;  }
-.textstyle7 { font-size:12pt; font-family:Segoe, 'Segoe UI', 'Helvetica Neue', sans-serif; color:#656565; font-weight:bold;  white-space: nowrap; }
+.textstyle5 { font-size:12pt; font-family:Segoe, 'Segoe UI', 'Helvetica Neue', sans-serif; color:#FFFFFF;  white-space: nowrap; }
+.menustyle3 { position:absolute; width:77px; height:39px; left:83px;  }
+.menustyle4 { position:absolute; width:73px; height:39px; left:160px;  }
+.menustyle5 { position:absolute; width:65px; height:39px; left:233px;  }
+.menustyle6 { position:absolute; width:30px; height:39px; left:40px;  }
+.menustyle7 { position:absolute; width:30px; height:39px; left:70px;  }
+.menustyle8 { position:absolute; width:36px; height:39px; left:100px;  }
+.menuentry_text3 { position:absolute; top:0px; bottom:0px; left:0px; right:0px; margin-top:auto; margin-bottom:auto; margin-left:auto; margin-right:auto; height:32px;  }
+.textstyle6 { font-size:22pt; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF;  white-space: nowrap; }
+.textstyle7 { font-size:12pt; font-family:Segoe, 'Segoe UI', 'Helvetica Neue', sans-serif; color:#404040; font-weight:bold;  white-space: nowrap; }
 #container_7b016bd8 { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:100px; background:none;  }
 #container_7b016bd8_padding { margin: 10px; display: block;  }
 #video_203c19b5 { box-sizing: border-box; vertical-align: bottom; position:relative; display: inline-block; width:100%; background-color:#FFFFFF; border: 1px solid #FFFFFF;  }
